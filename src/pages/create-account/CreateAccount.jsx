@@ -62,8 +62,7 @@ const CreateAccount = () => {
                 )}
             </form>
             <div className="text-center">
-                <span>Already Have a</span>{' '}
-                <Link to="/create-account">account?</Link>
+                <span>Already Have a</span> <Link to="/login">account?</Link>
             </div>
         </AuthLayout>
     );
